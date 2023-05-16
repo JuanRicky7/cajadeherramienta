@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  h1{
+    margin: 0;
+    text-align: center;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    margin: 20px 0;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-list li span {
+    flex-grow: 1;
+    font-size: 16px;
+  }
+  
+  .task-list li .delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-list li .delete-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .completed-task {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+
+  #calendar {
+    font-family: Arial, sans-serif;
+}
+
+#calendar table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#calendar th, #calendar td {
+    border: 1px solid #000000bd;
+    padding: 8px;
+    text-align: center;
+}
+
+#calendar th {
+    background-color: #ffffff;
+}
+
+#calendar td {
+    height: 80px;
+}
+
+#calendar .today {
+    background-color: #e77777;
+}
+
+#calendar .selected {
+    background-color: #a0a0a0;
+    color: #fff;
+}
+
+.form-register {
+  width: 95%;
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  border-radius: 7px;
+  box-shadow: 15px 10px 0px 5px #00000041;
+}
+.form__titulo {
+  background: rgb(15, 15, 15);
+  color: #08f2b3;
+  padding: 10px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom: 5px solid rgb(21, 245, 174);
+}
+
+.contenedor-inputs {
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid darkgray;
+  width: 100%;
+}
+
+.input-48 {
+  width: 48%;
+}
+
+.input-100 {
+  width: 100%;
+}
+
+.btn-enviar {
+  background-color: rgb(17, 16, 16);
+  color: #08f2b3;
+  margin: auto;
+  padding: 10px 40px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+
+.btn-enviar:active {
+  transform: scale(1.05);
+}

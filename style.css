@@ -1,0 +1,125 @@
+
+body {
+    margin: 0;
+    background-color: pink;
+
+
+  }
+  h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: #f2f2f2;
+    border-bottom: 2px solid #333;
+    border-radius: 8px;
+  }
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,75px);
+    grid-template-rows: 160px repeat(5, 75px);
+    background-color: gray;
+    padding: 15px;
+    border-radius: 32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+}
+
+.operador_igual{
+    background-color: #f95f57;
+    color: #fff;
+    border: none;   
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+    margin: 5px;
+    padding: 0;
+    border-radius: 32px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #ddd;
+    box-shadow: 5px 5px 10px #00000035, -5px -5px 15px 3px #00000035;
+    
+}
+
+
+button:active {
+    background-color: #006f54;
+}
+
+button:focus {
+    outline: none;
+}
+#c{
+    background-color: #f95f57;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.col-2 {
+    grid-column: span 2;
+   
+}
+
+.display {
+    grid-column: 1 / -1;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+    border-radius: 32px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+}
+#valor-actual {
+    font-size: 2em;
+}
+
+#valor-anterior {
+    font-size: 2.5em;
+}
+
+nav ul {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

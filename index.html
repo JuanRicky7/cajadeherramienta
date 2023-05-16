@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Caja de herramientas para el trabajo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="validar.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Caja de herramientas para el trabajo</h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="listadetarea.html">Lista de tareas</a></li>
+          <li><a href="calendario.html">Calendario</a></li>
+          <li><a href="calculadora.html">Calculadora</a></li>
+          <li><a href="mapa.html">Mapas</a></li>
+          <li><a href="musica.html">Musica</a></li>
+        </ul>
+      </nav>
+    <main>
+      <form action="guardar.php" method="post" class="form-register" onsubmit="validar()">
+        <h2 class="form__titulo">Contacto</h2>
+        <div class="contenedor-inputs">
+            <input type="text" name="nombre" placeholder="Nombre" class="input-48" >
+            <input type="text" name="correo" placeholder="E-mail" class="input-48" >
+            <input type="text" name="mensaje" placeholder="Mensaje" class="input-100" >
+            <input type="submit" value="Enviar" class="btn-enviar" name="boton">
+        </div>
+    </form>
+
+    </main>
+
+
+
+
+    <footer>
+      <p>Derechos reservados 2023 &copy; Caja de herramientas para el trabajo JRSG</p>
+    </footer>
+  </body>
+</html>
